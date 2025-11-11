@@ -32,25 +32,6 @@ python demo.py
 运行后即可看到弹窗沿心形出现，随后进入祝福界面。
 
 
-
-### 文件结构
-- `demo.py`：主程序，包含弹窗轨迹、祝福界面与脉动动画逻辑。
-- `README.md`：说明文档（本文件）。
-
-### 关键参数（可在 demo.py 顶部或对应位置调整）
-- 轨迹与节奏
-  - `desired_points`：心形轨迹上的点数量（默认 50）。
-  - `delay_ms`：相邻弹窗出现间隔（默认 90ms）。
-  - `hold_seconds`：每个小窗停留时长（默认 6 秒）。
-  - `WINDOW_W / WINDOW_H`：每个小窗的宽高（默认 120x60）。
-- 脉动动画
-  - `PULSE_ENABLED`：是否开启脉动（默认 True）。
-  - `PULSE_AMPLITUDE`：脉动幅度（建议 0.03–0.08，默认 0.06）。
-  - `PULSE_SPEED_HZ`：脉动频率（默认 0.8 Hz）。
-- 主题样式（`THEME`）
-  - 字体：`font_primary`、`font_title`（默认“微软雅黑”）。
-  - 颜色：`bg_grad_top`/`bg_grad_bottom`（祝福界面渐变），`accent`/`accent_light` 等。
-
 ### 自定义与二次创作
 - 修改提示文案：在 `show_warn_tip` 中的 `tips` 列表增删内容即可。
 - 修改祝福标题：`show_final_blessing` 中 `title_id` 的文本（示例为“祝你生日快乐”）。
@@ -62,15 +43,7 @@ python demo.py
 - 字体不生效：Windows 默认存在“微软雅黑”；若无请安装或换成系统可用字体。
 - 多显示器：窗口坐标基于当前屏幕尺寸计算，如跨屏使用可根据实际需求调整中心点。
 
-### 打包分发（可选）
-使用 PyInstaller 生成单文件 EXE：
 
-```bash
-pip install pyinstaller
-pyinstaller -F -w demo.py
-```
-
-生成结果在 `dist/` 目录，双击可运行。
 
 ### 许可
 本示例用于学习与演示，你可以自由修改与分发。如用于商业场景，请自行评估并加上适当的版权与第三方依赖声明。*** End Patch```}>>();
