@@ -8,7 +8,8 @@
 
 ### 展示
 
-![Uploading 7ec9ae01c3093353facc065c341e9ad1.png…]()
+<img width="1865" height="1378" alt="7ec9ae01c3093353facc065c341e9ad1" src="https://github.com/user-attachments/assets/91c50c52-03f9-407b-a85f-eabab7ff31c5" />
+
 
 
 <img width="2000" height="1060" alt="92316a5a4ca48e536f2dd40ea78ff5d7" src="https://github.com/user-attachments/assets/5dfee5a1-18ff-4b09-abca-83b2ce104f4b" />
